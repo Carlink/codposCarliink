@@ -3,7 +3,7 @@ Cuba.define do
     on root do
       res.write '<p>Danos un código postal y te regresamos la colonia, municipio y estado.
                  <a href="https://api-codigos-ted.herokuapp.com/v2/codigo_postal/64600">https://api-codigos-ted.herokuapp.com/v2/codigo_postal/64600</a></p>
-                 <p>Más información en <a href="https://github.com/Munett/API-Codigos-Postales">https://github.com/Munett/API-Codigos-Postales</a></p>'
+                 <p>Clon de Carlink Para Trabajo en Digital</p>'
     end
 
     on 'codigo_postal/:codigo_postal' do |codigo_postal|
